@@ -17,3 +17,8 @@ pyautogui.hotkey('win',"shift",'2')# nesse caso é para abrir o chrome,
 link = r"https://mail.google.com/"
 #copiando o link
 pyperclip.copy(link)
+
+# colando o link
+pyautogui.hotkey('ctrl', 'v')
+pyautogui.press('enter')
+# nesse caso o link e do gmail, mas poderia ser qualquer outro

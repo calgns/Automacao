@@ -36,3 +36,8 @@ time.sleep(5)
 pyautogui.click(107, 202)
 # time.sleep para carregar ao invés de time sleep você pode usar o Pause se quiser.
 time.sleep(1)
+#curiosidade da pra escolher quantidade de clicks:pyautogui.click(107, 202,clicks = 200)
+
+# copiando o email da lisa
+email = 'MonaLisa+nãoleia@gmail.com'
+pyperclip.copy(email)

@@ -67,3 +67,7 @@ isso não é um email!
 para agora de ler
 '''
 pyperclip.copy(descri)
+
+# colado descrição
+pyautogui.hotkey('ctrl', 'v')
+time.sleep(2)

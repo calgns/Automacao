@@ -28,3 +28,11 @@ pyautogui.hotkey("win",'up')
 
 # time.sleep para  dar tempo do site carregar
 time.sleep(5)
+
+# nesse paso você tera que descobrir a posição do mouse para apertar em escrever no gmail
+#  o comando utilizado seria. print(pyautogui.position()) você usara este comando
+#  quando estiver com o mouse em cima do botão.
+# no meu caso deu essa posição, então é melhor que você descubra a sua
+pyautogui.click(107, 202)
+# time.sleep para carregar ao invés de time sleep você pode usar o Pause se quiser.
+time.sleep(1)

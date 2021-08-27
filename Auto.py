@@ -22,3 +22,5 @@ pyperclip.copy(link)
 pyautogui.hotkey('ctrl', 'v')
 pyautogui.press('enter')
 # nesse caso o link e do gmail, mas poderia ser qualquer outro
+# time.sleep para  dar tempo do site carregar
+time.sleep(8)

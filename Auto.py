@@ -71,3 +71,7 @@ pyperclip.copy(descri)
 # colado descrição
 pyautogui.hotkey('ctrl', 'v')
 time.sleep(2)
+
+# e finalmente o termino
+# pyautogui.hotkey('ctrl', 'enter')
+pyautogui.alert('TERMINEI, JA PODE USAR!')

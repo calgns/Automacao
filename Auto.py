@@ -9,6 +9,11 @@ pyautogui.PAUSE = 1
 # ele da um ALERTA!!!
 pyautogui.alert('NÃO MEXE,EU ESTOU USANDO O PC DEPOIS VOCÊ VOLTA')
 
-pyautogui.hotkey('win','2')  # nesse caso é para abrir o chrome, mas pode ser que o seu chrome nao esteja nessa posição
+pyautogui.hotkey('win',"shift",'2')# nesse caso é para abrir o chrome,
+# mas pode ser que o seu chrome não esteja nessa posição
 # caso você esteja abrindo pelo jupyter anaconda deixe isso como comentário, caso contrario coloque no espaço da
 # tecla. win, 2.
+
+link = r"https://mail.google.com/"
+#copiando o link
+pyperclip.copy(link)

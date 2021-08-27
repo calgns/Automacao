@@ -57,3 +57,13 @@ pyperclip.copy(assunto)
 pyautogui.hotkey('ctrl', 'v')
 # e mudando para descrição
 pyautogui.hotkey('tab')
+
+# copiado descrição
+descri = '''
+não precisa  ler
+não leia
+isso não é um email!
+é um teste.
+para agora de ler
+'''
+pyperclip.copy(descri)

@@ -41,3 +41,10 @@ time.sleep(1)
 # copiando o email da lisa
 email = 'MonaLisa+nãoleia@gmail.com'
 pyperclip.copy(email)
+
+#dando tempo para recarregar o site
+time.sleep(5)
+# colando
+pyautogui.hotkey('ctrl', 'v')
+# passando para assunto
+pyautogui.hotkey('tab')

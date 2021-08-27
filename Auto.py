@@ -48,3 +48,13 @@ time.sleep(5)
 pyautogui.hotkey('ctrl', 'v')
 # passando para assunto
 pyautogui.hotkey('tab')
+
+# copiado assunto
+assunto = """
+assunto
+qualquer coisa
+....
+num sei 
+....
+"""
+pyperclip.copy(assunto)

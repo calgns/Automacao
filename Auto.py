@@ -50,11 +50,10 @@ pyautogui.hotkey('ctrl', 'v')
 pyautogui.hotkey('tab')
 
 # copiado assunto
-assunto = """
-assunto
-qualquer coisa
-....
-num sei 
-....
-"""
+assunto = 'assunto qualquer coisa'
 pyperclip.copy(assunto)
+
+# colado assunto
+pyautogui.hotkey('ctrl', 'v')
+# e mudando para descrição
+pyautogui.hotkey('tab')
